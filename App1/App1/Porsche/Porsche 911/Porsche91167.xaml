@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="App1.Porsche91167"
+             Title="Porsche 911 1967">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+
+                <Image Source="https://cdn1.mecum.com/auctions/ca0816/ca0816-244343/images/ca0816-244343_1@2x.jpg?1468097334000"
+                HeightRequest="200" />
+                <Label Text="The orginal Porsche 911 was first produced 1965 with Porsche running the base model, the 911 Coupe until 1967 which is this model - the refined model. It came with a 1.9L six cylinder boxer engine that produced 160 HP and a top speed of 131 MPH which for it's day was fast and even today it is a very respectable top speed, this 911 model was to be turbocharged in the coming years to create the Porsche 911 930 Turbo 3.3 which truly showed the potential of the 911 desgin and what the company wanted to achieve. This 911 defintley made an impact on motoring history and created one of the most loved model of car to date the Porsche 911 and it all started here with humble beginnings and a vision that would stand the test of time!
+                       "/>
+
+                <Label Text="     ENGINE SPECS "/>
+                <Label Text=" Engine Size    1.9L (160 HP)"/>
+                <Label Text=" Power          155 BHP @ 6100 RPM"/>
+                <Label Text=" Torque         180 Nm  @ 4200 RPM"/>
+                <Label Text=" Aspiration     Naturally Aspirated"/>
+                <Label Text=" Fuel System    Indirect Mechanical Injection"/>
+                <Label Text=" Cylinders      Boxer 6"/>
+                <Label Text=" Displacement   1991cc"/>
+                <Label Text="   PERFORMANCE SPECS "/>
+                <Label Text=" Top Speed      131 MPH"/>
+                <Label Text=" 0-62 MPH       8.9 Seconds"/>
+                <Label Text="   TRANSMISSION SPECS "/>
+                <Label Text=" Drivetrain     Rear Wheel Drive"/>
+                <Label Text=" Gearbox        5 Speed Manual"/>
+                <Label Text="       FUEL SPECS "/>
+                <Label Text=" Fuel Type      Petrol"/>
+                <Label Text=" Combined       N/A"/>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

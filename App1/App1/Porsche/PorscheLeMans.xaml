@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="App1.PorscheLeMans"
+             Title="Porsche - Le Mans">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+
+                <Label Text="Welcome to the home of Porsche Le Mans!"
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+                <Button Text="Porsche 356 SL" Clicked="Button_Porsche_356_SL"/>
+                <Button Text="Porsche 917K (Short Tail)" Clicked="Button_Porsche_917K_Short_Tail"/>
+                <Button Text="Porsche 917/20 'Pink Pig'" Clicked="Button_Porsche_91720_Pink_Pig"/>
+                <Button Text="Porsche 924 Carrera GTP" Clicked="Button_Porsche_924_Carrera_GTP"/>
+                <Button Text="Porsche 911 Carrera RSR 2.1 Turbo" Clicked="Button_Porsche_911_Carrera_RSR_Turbo"/>
+                <Button Text="Porsche 919 Hybrid" Clicked="Button_Porsche_919_HY"/>
+                <Button Text="Porsche 911 RSR GTE PRO" Clicked="Button_Porsche_911_RSR_GTE_PRO"/>
+                <Button Text="Porsche 911 RSR GTE AM"/>
+                <Button Text="Porsche 911 RSR 19"/>
+
+
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

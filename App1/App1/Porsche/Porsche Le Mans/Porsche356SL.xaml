@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="App1.Porsche356SL"
+             Title="Porsche 356 SL">
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+
+                <Image Source="https://flatsixes.com/wp-content/uploads/2016/10/porsche-lemans-winner-46-e1476121753402.jpg"
+                HeightRequest="200" />
+                <Label Text=" The Porsche 356 SL was Porsche's first entry into Le Mans a sport that 19 years later would prodiuce there first ever overall win and start their dominant streak throughout the 70's. The Porsche 356 was first shown to the world in 1950 at the Paris Auto Show with the organisers of Le Mans being there and seeing the car, they invited the Porsche family to compete in 1951 Le Mans race and this is when the 356 SL was born. The SL variant had covered wheel arches to give the 356 more of a sleek and aerodynamic look (even if in the 50's they didn't really know much about aerodynamics!). The #46 car took victory in its 751-1100cc class and 20th overall, considering this was Porsche's first ever entry to win their class and actually finish the race it was an enourmous achiement that even some teams struggle with today!
+                       "/>
+
+                <Label Text="     ENGINE SPECS "/>
+                <Label Text=" Engine Size    1.0L (50 HP)"/>
+                <Label Text=" Power          46 BHP @ 4400 RPM"/>
+                <Label Text=" Torque         106 NM @ 4400 RPM"/>
+                <Label Text=" Aspiration     Naturally Aspirated"/>
+                <Label Text=" Fuel System    2 Solex 32 PBI Carburettors"/>
+                <Label Text=" Cylinders      2 Cylinders"/>
+                <Label Text=" Displacement   1086cc"/>
+                <Label Text="   PERFORMANCE SPECS "/>
+                <Label Text=" Top Speed      101 MPH"/>
+                <Label Text=" 0-62 MPH       N/A"/>
+                <Label Text="   TRANSMISSION SPECS "/>
+                <Label Text=" Drivetrain     Rear Wheel Drive"/>
+                <Label Text=" Gearbox        4 Speed Manual"/>
+                <Label Text="       FUEL SPECS "/>
+                <Label Text=" Fuel Type      Petrol"/>
+                <Label Text=" Combined        N/A"/>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

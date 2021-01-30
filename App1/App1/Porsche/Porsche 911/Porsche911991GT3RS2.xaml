@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="App1.Porsche911991GT3RS2"
+             Title="Porsche 911 991 GT3 RS (Gen 2)">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+
+                <Image Source="https://cdn.elferspot.com/wp-content/uploads/2019/07/Porsche-911-991.2-GT3-RS-17.jpg"
+                HeightRequest="200" />
+                <Label Text="The Porsche 911 991 GT3 RS (Gen 2) first rolled of production in 2018, not only did it have a facelift from the Gen 1 991 GT3 RS, but it also recieved an almighty engine upgrade which was simular to that found on the RSR which now redlined at 9000 RPM, which gave it 20 more HP than the 991 GT3 RS Gen 1. The facelift added NACA brake ducts to cool the brakes, completely re-worked front fascia, side skirts, rear wing that gave the GT3 RS more downforce along with upgraded suspension components and lightweight glass in the rear and rear-side windows. It lapped the Nürburgring Nordschleife in 6 minutes 56.4 seconds a mere 24 seconds faster than the Gen 1 - It truly is a beast of a car!  
+                       "/>
+
+                <Label Text="     ENGINE SPECS "/>
+                <Label Text=" Engine Size    4.0L (516 HP)"/>
+                <Label Text=" Power          513 BHP @ 8250 RPM"/>
+                <Label Text=" Torque         470 Nm  @ 6000 RPM"/>
+                <Label Text=" Aspiration     Naturally"/>
+                <Label Text=" Fuel System    Direct Injection"/>
+                <Label Text=" Cylinders      Boxer 6"/>
+                <Label Text=" Displacement   3996cc"/>
+                <Label Text="   PERFORMANCE SPECS "/>
+                <Label Text=" Top Speed      194 MPH"/>
+                <Label Text=" 0-62 MPH       3.2 Seconds"/>
+                <Label Text="   TRANSMISSION SPECS "/>
+                <Label Text=" Drivetrain     Rear Wheel Drive"/>
+                <Label Text=" Gearbox        7 Speed PDK"/>
+                <Label Text="       FUEL SPECS "/>
+                <Label Text=" Fuel Type      Petrol"/>
+                <Label Text=" Combined       22 MPG"/>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

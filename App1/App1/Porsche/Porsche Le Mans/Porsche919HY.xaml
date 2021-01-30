@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="App1.Porsche919HY"
+             Title="Porsche 919 Hybrid">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+
+                <Image Source="https://s3.paultan.org/image/2017/04/2017-Porsche-919-Hybrid-4.jpg"
+                HeightRequest="200" />
+                <Label Text="The Porsche 919 Hybrid is a modern day Le Mans icon and proved that once again Porsche really did dominate the LMP1/Prototype class like they had done throughout the 70's with the likes of the legendary 917's. For three consecutive years (2015, 2016, 2017) the 919 had won the 24 Hours of Le Mans, they showed the world that they were back in the Endurance World and that they meant business. When we look at how 40 years effect the design and handling of a car then comapring the 917 and 919 together are two completely different beasts, first of the 917 didnt have any fancy computers producing 400 BHP more or power steering or downforce that stuck you to the ground like you were a piece of chewing gum or the aerodynamics to make you slip through the air effortless! The 919 was a modern beast nonetheless the sheer amount of grip displayed in corners allowed for faster cornering speeds and therfore faster lap times, unlike the 917 when the 919 was traveling down the Musanne Straight at over 200 MPH the car seemed to drive effortless and if it wasn't for the likes of the GT Classes you wouldn't know you were hurtling down the Musanne Straight at 210 MPH! Even though the Porsche 919 only entered the Le Mans 24 Hour race 4 times (2014, 2015, 2016, 2017) it left a mark in motorsporting history and left the sport a champion.     
+                       "/>
+
+                <Label Text="     ENGINE SPECS "/>
+                <Label Text=" Engine Size 1  2L V4 (505 HP)"/>
+                <Label Text=" Engine Size 2  Electric Motor (405 HP)"/>
+                <Label Text=" Power          500 BHP or 900 BHP With Hybrid Active"/>
+                <Label Text=" Torque         N/A"/>
+                <Label Text=" Aspiration     Turbocharger"/>
+                <Label Text=" Fuel System    Direct Injection"/>
+                <Label Text=" Cylinders      4 Cylinder"/>
+                <Label Text=" Displacement   2000cc"/>
+                <Label Text="   PERFORMANCE SPECS "/>
+                <Label Text=" Top Speed      210 MPH"/>
+                <Label Text=" 0-62 MPH       N/A"/>
+                <Label Text="   TRANSMISSION SPECS "/>
+                <Label Text=" Drivetrain     All Wheel Drive"/>
+                <Label Text=" Gearbox        7 Speed Sequential"/>
+                <Label Text="       FUEL SPECS "/>
+                <Label Text=" Fuel Type 1     Petrol"/>
+                <Label Text=" Fuel Type 2     Lithium-Ion Battery"/>
+                <Label Text=" Combined        N/A"/>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

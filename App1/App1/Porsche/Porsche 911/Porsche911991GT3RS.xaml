@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="App1.Porsche911991GT3RS"
+             Title="Porsche 911 991 GT3 RS (Gen 1)">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+
+                <Image Source="https://www.alastairbols.com/wp-content/uploads/2019/01/991.1-GT3RS-MIAMI-BLUE-19-of-28.jpg"
+                HeightRequest="200" />
+                <Label Text=" The Porsche 911 991 GT3 RS (Gen 1) was introduced to the world back in 2015 and it was a step up from the 991 GT3 that had come out 2 years prior in 2013. The RS had an a new 4 litre engine that was capable of producing 500 HP compared to the 3.8 litre engine in the standard GT3 that only produced 475 HP, the GT3 RS also saw some improvements in visual but also practical aspects. The front bumper is now equipped with louvers above the front wheel arch, to the turbo-like intakes instead of the intake being under the rear wing. The GT3 RS saw the roof now being made of magnesium and full bucket seats and lightweight door handles with the Club Sport Package as standard. This included the addition of a bolt in roll cage, fire extinguisher, six-point harness and master battery switch. Along with the torque vectoring that allowed the car to decide how much power through the rear wheels so that in corners you have optimal grip when you blip the throttle through the corner, which was proven when it lapped the Nürburgring Nordschleife in 7 minutes 20 seconds - It truly is a race car with both the track and road in mind, it is like some many other Porsches a true drivers car!  
+                       "/>
+
+                <Label Text="     ENGINE SPECS "/>
+                <Label Text=" Engine Size    4.0L (496 HP)"/>
+                <Label Text=" Power          493 BHP @ 8250 RPM"/>
+                <Label Text=" Torque         460 Nm  @ 6250 RPM"/>
+                <Label Text=" Aspiration     Naturally"/>
+                <Label Text=" Fuel System    Direct Injection"/>
+                <Label Text=" Cylinders      Boxer 6"/>
+                <Label Text=" Displacement   3996cc"/>
+                <Label Text="   PERFORMANCE SPECS "/>
+                <Label Text=" Top Speed      193 MPH"/>
+                <Label Text=" 0-62 MPH       3.3 Seconds"/>
+                <Label Text="   TRANSMISSION SPECS "/>
+                <Label Text=" Drivetrain     Rear Wheel Drive"/>
+                <Label Text=" Gearbox        7 Speed PDK"/>
+                <Label Text="       FUEL SPECS "/>
+                <Label Text=" Fuel Type      Petrol"/>
+                <Label Text=" Combined       22 MPG"/>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

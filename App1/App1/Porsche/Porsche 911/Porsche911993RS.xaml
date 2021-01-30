@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="App1.Porsche911993RS"
+             Title="Porsche 911 993 RS">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                
+                <Image Source="https://s1.cdn.autoevolution.com/images/gallery/PORSCHE-911-Carrera-RS--993--2954_20.jpeg"
+                HeightRequest="200" />
+                <Label Text="The Porsche 911 993 RS marked the last air-cooled era for the Porsche RS line-up, the 993 RS rolled off the production line in 1995 and only ran for one year. It was the standard Porsche 993 on steroids, it was lighter than the standard version, it produced 28 BHP more than the standard one and it recived one of its most iconic features... The 993 RS Bodykit that made the overall car 2.4 inches wider and the iconic rear wing that is renowned with the recent RS models. It truly was a street legal race car with it's six-point harness and welded in roll cage and light weight racing seats, this was a car built for the road but had race pedigree running through it's heart!
+                       "/>
+            
+                <Label Text="     ENGINE SPECS "/>
+                <Label Text=" Engine Size    3.7L (331 HP)"/>
+                <Label Text=" Power          296 BHP @ 6500 RPM "/>
+                <Label Text=" Torque         355 Nm  @ 5400 Rpm "/>
+                <Label Text=" Aspiration     Naturally"/>
+                <Label Text=" Fuel System    Multipoint Injection "/>
+                <Label Text=" Cylinders      Boxer 6 "/>
+                <Label Text=" Displacement   3746cc "/>
+                <Label Text="   PERFORMANCE SPECS "/>
+                <Label Text=" Top Speed      172 MPH "/>
+                <Label Text=" 0-62 MPH       5 Seconds "/>
+                <Label Text="   TRANSMISSION SPECS "/>
+                <Label Text=" Drivetrain     Rear Wheel Drive "/>
+                <Label Text=" Gearbox        6 Speed Manual "/>
+                <Label Text="       FUEL SPECS "/>
+                <Label Text=" Fuel Type      Petrol "/>
+                <Label Text=" Combined       22.8 MPG "/>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

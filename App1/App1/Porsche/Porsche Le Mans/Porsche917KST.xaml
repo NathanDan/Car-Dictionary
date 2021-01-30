@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="App1.Porsche917KST"
+            Title="Porsche 917K (Short Tail)">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+
+                <Image Source="https://lemans.slot-racing.fr/le-mans-1970/images/porsche-917K-23-LM70-AB.jpg"
+                HeightRequest="200" />
+                <Label Text="The Porsche 917K (Short Tail) first entered Le Mans in 1970 and from the very beginning it showed the world how dominant it truly was by winning out right in its first Le Mans 24 Hours - It was a sign of what was to come of Porsche and their dominace throughout the 70's! The 917K (Short Tail) was the smaller than the 917LH (Long Tail) and 917L (Long Tail) and had a slightly smaller engine size of 4.5 litres instead of the 4.9 liters found in the LH, but the same sized as the L model, this also meant the K was slightly slower at around 220 MPH instead of the 249 MPH in the LH. But this didn't really mean anything when we look at the ikes of the 1970 24 hours of Le Mans when the 917K won the race and beat the likes of the 917LH's, 917L's and the Ferrari 512S's. The 917K throughout the 24 Hours was on a mission to prove it's dominance through the 70's and make a mark for in sporting history for Porsche - and it certainly did that and beat the odds of many crtics of the time many of holm believed the 917L was gonna beat the K outright! And that is why the 917K is one of Porsche's Le Mans icons to this day. 
+                       "/>
+
+                <Label Text="     ENGINE SPECS "/>
+                <Label Text=" Engine Size    4.5L Flat 12 (605 HP)"/>
+                <Label Text=" Power          600 BHP @ 8300 RPM"/>
+                <Label Text=" Torque         563 Nm  @ 6400 RPM"/>
+                <Label Text=" Aspiration     Naturally Aspirated"/>
+                <Label Text=" Fuel System    Mechanical Indirect Injection"/>
+                <Label Text=" Cylinders      12 Cylinder"/>
+                <Label Text=" Displacement   4507cc"/>
+                <Label Text="   PERFORMANCE SPECS "/>
+                <Label Text=" Top Speed      220 MPH"/>
+                <Label Text=" 0-62 MPH       N/A"/>
+                <Label Text="   TRANSMISSION SPECS "/>
+                <Label Text=" Drivetrain     Rear Wheel Drive"/>
+                <Label Text=" Gearbox        5 Speed Manual"/>
+                <Label Text="       FUEL SPECS "/>
+                <Label Text=" Fuel Type      Petrol"/>
+                <Label Text=" Combined        N/A"/>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

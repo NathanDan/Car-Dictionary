@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="App1.Porsche911996GT3RS"
+             Title="Porsche 911 996 GT3 RS">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+
+                <Image Source="https://www.supercars.net/blog/wp-content/uploads/2018/05/gt3-rs-2004-1024x768.jpg"
+                HeightRequest="200" />
+                <Label Text="The Porsche 911 996 GT3 RS came off the production line in 2003 it was a symbol of a modern performance car with all of the luxuries of a premium sports car, along with all of the technological advancements of era that the GT3 RS came from. Like the other RS models they ultimatley stem from the base 911 and then make them a pure street legal race car. Although some luxury features added weight the main goal was still weight reduction, and this can be found all over the car, from the whole bodyshell only weighing 14KG to a saving of 8KG from the bonnet as it was now a fully carbon bonnet. This paired with Porsche's new water cooled engine that gave the 996 GT3 RS her bite and raw race pedigree.
+                       "/>
+
+                <Label Text="     ENGINE SPECS "/>
+                <Label Text=" Engine Size    3.6L (381 HP)"/>
+                <Label Text=" Power          375 BHP @ 7400 RPM"/>
+                <Label Text=" Torque         385 Nm  @ 5000 RPM"/>
+                <Label Text=" Aspiration     Naturally"/>
+                <Label Text=" Fuel System    Multipoint Injection"/>
+                <Label Text=" Cylinders      Boxer 6"/>
+                <Label Text=" Displacement   3600cc"/>
+                <Label Text="   PERFORMANCE SPECS "/>
+                <Label Text=" Top Speed      190 MPH"/>
+                <Label Text=" 0-62 MPH       4.4 Seconds"/>
+                <Label Text="   TRANSMISSION SPECS "/>
+                <Label Text=" Drivetrain     Rear Wheel Drive"/>
+                <Label Text=" Gearbox        6 Speed Manual"/>
+                <Label Text="       FUEL SPECS "/>
+                <Label Text=" Fuel Type      Petrol"/>
+                <Label Text=" Combined       21.9 MPG"/>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

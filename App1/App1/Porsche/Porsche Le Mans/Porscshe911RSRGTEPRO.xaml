@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="App1.Porsche911RSRGTEPRO"
+             Title="Porsche 911 RSR GTE PRO">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+
+                <Image Source=""
+                HeightRequest="200" />
+                <Label Text=" 
+                       "/>
+
+                <Label Text="     ENGINE SPECS "/>
+                <Label Text=" Engine Size    "/>
+                <Label Text=" Power          "/>
+                <Label Text=" Torque         "/>
+                <Label Text=" Aspiration     Naturally Aspriated"/>
+                <Label Text=" Fuel System    "/>
+                <Label Text=" Cylinders      "/>
+                <Label Text=" Displacement   "/>
+                <Label Text="   PERFORMANCE SPECS "/>
+                <Label Text=" Top Speed      "/>
+                <Label Text=" 0-62 MPH       "/>
+                <Label Text="   TRANSMISSION SPECS "/>
+                <Label Text=" Drivetrain     Rear Wheel Drive"/>
+                <Label Text=" Gearbox        6 Speed Sequential"/>
+                <Label Text="       FUEL SPECS "/>
+                <Label Text=" Fuel Type      Petrol"/>
+                <Label Text=" Combined        N/A"/>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

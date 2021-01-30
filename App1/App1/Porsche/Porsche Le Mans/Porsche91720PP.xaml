@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="App1.Porsche91720PP"
+             Title="Porsche 917/20 'Pink Pig'">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+
+                <Image Source="https://www.racingjunk.com/news/wp-content/uploads/2014/05/1971_Porsche_917-20_Pink_pig_004_6310.jpg"
+                HeightRequest="200" />
+                <Label Text="The Porsche 917/20 'Pink Pig' entered the 1971 Le Mans a year later than the truly dominaint Porsche 917 K (Short Tail) it combined high downforce along with low drag which made the 917/20 look differnt to the 917 K. It had a lower nose to reduce front end lift on the Mulsanne Straight when the car would reach it's maximum speed, this paired with a wider chassis made the 917/20 like a slab with a low center of gravity and a lot less drag in the straights. The name 'Pink Pig' came from the livery that it ran in the 1971 edition of the Le Mans 24 Hours, it was designed to look like pig butchers chart! it was a strong and humourous design being painted in pig pink all over with red dotted lines splitting the car up into it's equvilent cuts of a pig. The car unfornatley did not make it to the end of the race and crashed out of 6th place half way through the 24 hours at around 2AM (GMT). Despite this the is not only an icon but a legendary racer in Porsche's rich racing history!
+                       "/>
+
+                <Label Text="     ENGINE SPECS "/>
+                <Label Text=" Engine Size    4.9L V12 (605 HP)"/>
+                <Label Text=" Power          601 BHP @ 8300 RPM"/>
+                <Label Text=" Torque         563 Nm  @ 6400 RPM"/>
+                <Label Text=" Aspiration     Naturally"/>
+                <Label Text=" Fuel System    Mechanical Indirect Injection"/>
+                <Label Text=" Cylinders      12 Cylinder"/>
+                <Label Text=" Displacement   4907cc"/>
+                <Label Text="   PERFORMANCE SPECS "/>
+                <Label Text=" Top Speed      224 MPH"/>
+                <Label Text=" 0-62 MPH       N/A"/>
+                <Label Text="   TRANSMISSION SPECS "/>
+                <Label Text=" Drivetrain     Rear Wheel Drive"/>
+                <Label Text=" Gearbox        5 Speed Manual"/>
+                <Label Text="       FUEL SPECS "/>
+                <Label Text=" Fuel Type      Petrol"/>
+                <Label Text=" Combined        N/A"/>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="App1.Porsche911"
+             Title="Porsche 911 Menu">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+
+                <Label Text="Welcome to the home of the Porsche 911!"
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+                <Button Text="Porsche 911 1967" Clicked="Button_Porsche_91167"/>
+                <Button Text="Porsche 911 930 Turbo 3.3" Clicked="Button_Porsche_911_930T"/>
+                <Button Text="Porsche 911 993 RS" Clicked="Button_Porsche_911_993RS"/>
+                <Button Text="Porsche 911 996 GT3 RS" Clicked="Button_Porsche_911_996GT3RS"/>
+                <Button Text="Porsche 911 997 GT3 RS (Gen 1)" Clicked="Button_Porsche_911_997GT3RS1"/>
+                <Button Text="Porsche 911 997 GT3 RS (Gen 2)" Clicked="Button_Porsche_911_997GT3RS2"/>
+                <Button Text="Porsche 911 997 GT3 RS 4.0" Clicked="Button_Porsche_911_997GT3RS4"/>
+                <Button Text="Porsche 911 991 GT3 RS (Gen 1)" Clicked="Button_Porsche_911_991GT3RS1"/>
+                <Button Text="Porsche 911 991 GT3 RS (Gen 2)" Clicked="Button_Porsche_911_991GT3RS2"/>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

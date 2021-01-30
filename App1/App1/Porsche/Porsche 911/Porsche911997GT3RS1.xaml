@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="App1.Porsche911997GT3RS"
+             Title="Porsche 911 997 GT3 RS (Gen 1)">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+
+                <Image Source="https://cdn.bringatrailer.com/wp-content/uploads/2017/08/DSC_0246-1280x851-940x625.jpg"
+                HeightRequest="200" />
+                <Label Text="The Porsche 911 997 GT3 RS (Gen 1) was first introduced to the world in 2006 and quickly showed the world what the RS name meant, with its new adjustable carbon wing to it's lightweight plastic composite windscreen this allowed people to have a higher power to weight ratio which was around 300 HP per tonne! This model also saw it take off in a range of racing series across both Europe and America, although these were slightly more reduced in weight (Lack of seats!) the road version was practically identical and allowed people to have a true race car as a street legal car to drive and it was later updated with the Gen 2 a few years later.
+                       "/>
+
+                <Label Text="     ENGINE SPECS "/>
+                <Label Text=" Engine Size    3.6L (409 HP)"/>
+                <Label Text=" Power          409 BHP @ 7600 RPM"/>
+                <Label Text=" Torque         405 Nm  @ 5500 RPM"/>
+                <Label Text=" Aspiration     Naturally"/>
+                <Label Text=" Fuel System    Multipoint Injection"/>
+                <Label Text=" Cylinders      Boxer 6"/>
+                <Label Text=" Displacement   3600cc"/>
+                <Label Text="   PERFORMANCE SPECS "/>
+                <Label Text=" Top Speed      193 MPH"/>
+                <Label Text=" 0-62 MPH       4.2 Seconds"/>
+                <Label Text="   TRANSMISSION SPECS "/>
+                <Label Text=" Drivetrain     Rear Wheel Drive"/>
+                <Label Text=" Gearbox        6 Speed Manual"/>
+                <Label Text="       FUEL SPECS "/>
+                <Label Text=" Fuel Type      Petrol"/>
+                <Label Text=" Combined       21.7 MPG"/>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

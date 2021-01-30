@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="App1.Porsche924CGTP"
+             Title="Porsche 924 Carrera GTP">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+
+                <Image Source="https://www.carscoops.com/wp-content/uploads/webp/2016/07/open.webp"
+                HeightRequest="200" />
+                <Label Text="The Porsche 924 Carrera GTP was driven by 3 teams: Germany 924 GTP 001, Great Britain 924 GTP 002 and The United States 924 GTP 003. They first entered Le Mans in 1980 with high hopes as Porsche had dominated the 70's with a record number of Le Mans and the 80's saw the agenda change and more of a challenge and so entered the 924's in the prototype class hence the name 924 GTP. The 924 GTPs finished in 6th (924 GTP 001), 12th (924 GTP 002) and 13th (924 GTP 003) even though this was not the like the Porsches in the 70s but they had beaten the expectations of the 924 prior to entering and just finishing Le Mans is a massive engineering achiement in its self so placing 6th, 12th and 13th was not only respectable, but a testament to the 924 GTP's abilities and that of its drivers and team behind it. The 924 GTP was retired in 1982, 2 years after first competeing in Le Mans, with a respectable record that showed the capablities of the 924 Carrera GTP.   
+                       "/>
+
+                <Label Text="     ENGINE SPECS "/>
+                <Label Text=" Engine Size    2.0L (320 HP)"/>
+                <Label Text=" Power          315 BHP @ 7000 RPM"/>
+                <Label Text=" Torque         382 Nm  @ 4500 RPM"/>
+                <Label Text=" Aspiration     Turbo"/>
+                <Label Text=" Fuel System    Mechanical Indirect Injection"/>
+                <Label Text=" Cylinders      4 Cylinder In-Line"/>
+                <Label Text=" Displacement   1984cc"/>
+                <Label Text="   PERFORMANCE SPECS "/>
+                <Label Text=" Top Speed       180 MPH"/>
+                <Label Text=" 0-62 MPH        N/A"/>
+                <Label Text="   TRANSMISSION SPECS "/>
+                <Label Text=" Drivetrain     Rear Wheel Drive"/>
+                <Label Text=" Gearbox        5 Speed Manual"/>
+                <Label Text="       FUEL SPECS "/>
+                <Label Text=" Fuel Type      Petrol"/>
+                <Label Text=" Combined        N/A"/>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

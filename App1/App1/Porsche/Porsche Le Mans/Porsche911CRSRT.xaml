@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="App1.Porsche911CRSRT"
+             Title="Porsche 911 Carrera RSR 2.1 Turbo">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+
+                <Image Source="https://img.hmn.com/fit-in/900x506/filters:upscale()/stories/2018/02/1974_Porsche_911_Carrera_RSR_Turbo-012_MH.jpg"
+                HeightRequest="200" />
+                <Label Text="The Porsche 911 Carrera RSR 2.1 Turbo took part in the 1974 Le Mans 24 Hours, they entered four RSR 2.1 Turbos - R5, R9, R12 and R13 all wearing the famous Martini Racing Red and Blue livery. Three of the four were driven by French teams and finished in a respectable 12th, 13th and 14th overall with the Porsche Works team coming home in second despite losing fith-gear during the 24 hours. Porsche's racing diverson took the Carrera 2.1L Type 911/78 SOCH Flat-6 engine that orignally made 450 HP at 8000 RPM and replaced the crankcase with a magnesium version, added Bosch mechanical fuel injection and a KKK turbocharger that allowed the RSR 2.1 Turbo make its 505 HP (500 BHP) at 7600 RPM. This paired with it's fibre glass bumpers, doors, front and rear valences, as well as the front and rear decklids! All in the name of making it as light as possible to achieve its 3.2 second 0-62 MPH and be light through the corners, one thing that makes this car special is the fact that it was a stock 911 under all of the bodywork and upgrades compared to the likes of the prototypes in Le Mans where they generally don't represnt what car look like, this was one people at home could relate to or even a car they could dream of one day owning - Just a street legal version! This was the start to a legend that we know today and was the beginning of the Porsche 911 Turbo, a true icon to this day.
+                       "/>
+
+                <Label Text="     ENGINE SPECS "/>
+                <Label Text=" Engine Size    2.1L (505)"/>
+                <Label Text=" Power          500 BHP @ 7600 RPM"/>
+                <Label Text=" Torque         549 Nm  @ 5400 RPM"/>
+                <Label Text=" Aspiration     KKK Turbo"/>
+                <Label Text=" Fuel System    Mechanical Indirect Injection"/>
+                <Label Text=" Cylinders      SOHC Flat 6"/>
+                <Label Text=" Displacement   2142cc"/>
+                <Label Text="   PERFORMANCE SPECS "/>
+                <Label Text=" Top Speed      186 MPH"/>
+                <Label Text=" 0-62 MPH       3.2 Seconds"/>
+                <Label Text="   TRANSMISSION SPECS "/>
+                <Label Text=" Drivetrain     Rear Wheel Drive"/>
+                <Label Text=" Gearbox        Type 915 5 Speed Manual"/>
+                <Label Text="       FUEL SPECS "/>
+                <Label Text=" Fuel Type      Petrol"/>
+                <Label Text=" Combined        N/A"/>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

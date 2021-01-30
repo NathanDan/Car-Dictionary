@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="App1.Porsche911930T"
+             Title="Porsche 911 930 Turbo 3.3">
+
+    <ScrollView>
+        <StackLayout>
+
+            <Image Source="https://www.super-hobby.com/zdjecia/0/6/5/5797_0-auto_downl.jpg"
+                HeightRequest="200" />
+            <Label Text="The Porsche 911 930 Turbo 3.3 was the first edition of the Porsche 911 that was to be turbocharged instead of being naturally aspirated, the Porsche engineers took the orginal 911 that that came out in 1967 and re-designed the engine to allow for a turbocharger to be bolted on to increase the power of the 930 to 300 HP and increased the engine capacity from 1.9L to 3.3L along with doubling the power output from 128 HP to 300 HP. This brought the 0-62 MPH from 8.9 seconds down to 5.2 seconds and increased the top speed from 131 MPH to 161 MPH! The 930 saw the iconic rear wing and wider wheel arches, and the two-tone rims that were chrome on the outside and then the body colour of the car in the center. The 930 Turbo 3.3 is a true icon of Porsche's domestic icon and was a basis for what the 911 Turbo would become to this day!
+                       "/>
+
+            <Label Text="     ENGINE SPECS "/>
+            <Label Text=" Engine Size    3.3L (300 HP)"/>
+            <Label Text=" Power          296 BHP @ 5500 RPM"/>
+            <Label Text=" Torque         430 Nm  @ 4000 RPM"/>
+            <Label Text=" Aspiration     Turbocharged"/>
+            <Label Text=" Fuel System    Indirect Mechanical Injection"/>
+            <Label Text=" Cylinders      Boxer 6"/>
+            <Label Text=" Displacement   3299cc"/>
+            <Label Text="   PERFORMANCE SPECS "/>
+            <Label Text=" Top Speed      161 MPH"/>
+            <Label Text=" 0-62 MPH       5.2 Seconds"/>
+            <Label Text="   TRANSMISSION SPECS "/>
+            <Label Text=" Drivetrain     Rear Wheel Drive"/>
+            <Label Text=" Gearbox        5 Speed Manual"/>
+            <Label Text="       FUEL SPECS "/>
+            <Label Text=" Fuel Type      Petrol"/>
+            <Label Text=" Combined       22.94 MPG"/>
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

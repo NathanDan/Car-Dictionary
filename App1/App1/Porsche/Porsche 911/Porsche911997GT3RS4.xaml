@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="App1.Porsche911997GT3RS4"
+             Title="Porsche 911 997 GT3 RS 4.0">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+
+                <Image Source="https://cdn.elferspot.com/wp-content/uploads/2018/07/2011-Porsche-911-GT3RS-4.0.jpg"
+                HeightRequest="200" />
+                <Label Text="The Porsche 911 997 GT3 RS 4.0 was launched in 2011 and was the last evolution of the 997 series and this meant the Porsche engineers put the largest engine they could in a street legal 911 with the crankshaft coming directly from the RSR which helped improve the power output to 496 HP over 52 HP more than the 997 GT3 RS Gen 2 which only came out the year before in 2010 - It was the most powerful 6 cylinder naturally aspirated engine in any production car, with a power to weight ratio of 123.25 HP per litre output. They added front dive planes to give addition downforce on the front to allow for even sharper cornering which was seen when it completed the Nürburgring Nordschleife is 7 minutes and 27 seconds. It truly was a nod to the 911 heritage and one last nod to the 997 series with only 600 being built.    
+                       "/>
+
+                <Label Text="     ENGINE SPECS "/>
+                <Label Text=" Engine Size    4.0L (496 HP)"/>
+                <Label Text=" Power          493 BHP @ 8250 RPM"/>
+                <Label Text=" Torque         460 Nm  @ 5750 RPM"/>
+                <Label Text=" Aspiration     Naturally"/>
+                <Label Text=" Fuel System    Variable Intake"/>
+                <Label Text=" Cylinders      Boxer 6"/>
+                <Label Text=" Displacement   3996cc"/>
+                <Label Text="   PERFORMANCE SPECS "/>
+                <Label Text=" Top Speed      193 MPH"/>
+                <Label Text=" 0-62 MPH       3.9 Seconds"/>
+                <Label Text="   TRANSMISSION SPECS "/>
+                <Label Text=" Drivetrain     Rear Wheel Drive"/>
+                <Label Text=" Gearbox        6 Speed Manual"/>
+                <Label Text="       FUEL SPECS "/>
+                <Label Text=" Fuel Type      Petrol"/>
+                <Label Text=" Combined       20 MPG"/>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
